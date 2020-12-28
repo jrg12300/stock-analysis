@@ -8,14 +8,14 @@ Overview of project:
 Results:
 
   Much of the original code was left intact. The code that was left intact was the calculation and display of run time, table formatting, ticker array, and year input.
-[Insert a picture of the entry form]
+![Here is a picture of the entry form and table]()
 
   The adjustment that I made to the code that was shown in the module is that I avoided using a nested for loop. In the module, the macro ran through the stock data once for each ticker (12 times total). In my refraction, I only looped through the data once. This improved run times from 1.8 seconds to 0.2 seconds per year.
   
-original code:
+![original code:]()
 
 
-improved code:
+![original code:]()
 
 
 
