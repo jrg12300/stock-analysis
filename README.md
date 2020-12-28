@@ -8,14 +8,14 @@ Overview of project:
 Results:
 
   Much of the original code was left intact. The code that was left intact was the calculation and display of run time, table formatting, ticker array, and year input.
-![Here is a picture of the entry form and table]()
+![Here is a picture of the entry form and table](https://github.com/jrg12300/stock-analysis/blob/main/Resources/Form%20Picture.png)
 
   The adjustment that I made to the code that was shown in the module is that I avoided using a nested for loop. In the module, the macro ran through the stock data once for each ticker (12 times total). In my refraction, I only looped through the data once. This improved run times from 1.8 seconds to 0.2 seconds per year.
   
-![original code:]()
+![original code:](https://github.com/jrg12300/stock-analysis/blob/main/Resources/Old%20For%20Loop.png)
 
 
-![original code:]()
+![refracted code:](https://github.com/jrg12300/stock-analysis/blob/main/Resources/New%20For%20Loop.png)
 
 
 
